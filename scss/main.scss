@@ -1,0 +1,48 @@
+@import './colors';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-padding-top: 72px;
+}
+
+body {
+	background-color: $bg-color;
+	position: relative;
+}
+
+// nawigacja 
+
+nav {
+	z-index: 5;
+	width: 100%;
+	transition: background-color 0.6s;
+
+	a,
+	.nav-link {
+		color: $main-color;
+	}
+	a:hover,
+	.nav-link:hover {
+		color: $special-color;
+	}
+	.active {
+		color: $second-color;
+	}
+	.fa-bars {
+		padding: 10px;
+		color: $main-color;
+	}
+	.navbar-brand {
+		font-weight: bold;
+	}
+	.logo-color {
+		color: $special-color;
+		text-transform: uppercase;
+	}
+}
