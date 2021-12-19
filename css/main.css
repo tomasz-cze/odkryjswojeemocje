@@ -8,7 +8,7 @@
 }
 
 html {
-  scroll-padding-top: 72px;
+  scroll-padding-top: 66px;
 }
 
 body {
@@ -79,7 +79,7 @@ header p {
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url(../img/mind-riding-md.png);
+  background-image: url(../img/smiley-1920.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -115,11 +115,36 @@ header .hero-text {
 }
 
 header .hero-text .hero-btn {
+  margin-top: 10%;
   color: #305be9;
   background-color: #d7f5ec;
 }
 
 header .hero-text .hero-btn:hover {
   background-color: #e76c25;
+}
+
+.aboutUs {
+  height: 90vh;
+  text-align: center;
+}
+
+.aboutUs .aboutUs-text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.aboutUs p {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
