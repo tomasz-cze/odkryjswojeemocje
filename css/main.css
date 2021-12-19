@@ -12,12 +12,18 @@ html {
 }
 
 body {
-  background-color: #a3e7d3;
   position: relative;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+  background-color: #a3e7d3;
+}
+
 nav {
-  z-index: 5;
   width: 100%;
   -webkit-transition: background-color 0.6s;
   transition: background-color 0.6s;

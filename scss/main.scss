@@ -12,14 +12,16 @@ html {
 }
 
 body {
-	background-color: $bg-color;
 	position: relative;
 }
-
-// nawigacja 
-
+.shadow-bg {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+// nawigacja
+.navbar {
+    background-color: $bg-color;
+}
 nav {
-	z-index: 5;
 	width: 100%;
 	transition: background-color 0.6s;
 
