@@ -13,22 +13,23 @@ html {
 
 body {
 	position: relative;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .shadow-bg {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 // nawigacja
 .navbar {
-    background-color: $bg-color;
+	background-color: $bg-color;
 }
 nav {
 	width: 100%;
 	transition: background-color 0.6s;
-.collapse {
-    display: flex;
-    justify-content:end;
-}
+	z-index: 5;
+	.collapse {
+		display: flex;
+		justify-content: end;
+	}
 	a,
 	.nav-link {
 		color: $main-color;
@@ -51,4 +52,50 @@ nav {
 		color: $special-color;
 		text-transform: uppercase;
 	}
+}
+// hero image
+header {
+    h1 {
+        text-transform: uppercase;
+    }
+    p {
+        font-weight: bold;
+    }
+    .hero-img {
+        position: relative;
+        height: 100vh;
+        background-image: url(../img/mind-riding-md.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 1;
+    }
+    .hero-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(270, 270, 270, 0.6);
+        z-index: -10;
+    }
+    .hero-text {
+        // position: absolute;
+        height: 100%;
+        color: $main-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 4;
+    
+        .hero-btn {
+            color: $main-color;
+            background-color: $bg-color;
+        }
+        .hero-btn:hover {
+            background-color: $special-color;
+        }
+    }
+
+
 }

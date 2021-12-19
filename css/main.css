@@ -13,7 +13,7 @@ html {
 
 body {
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .shadow-bg {
@@ -28,6 +28,7 @@ nav {
   width: 100%;
   -webkit-transition: background-color 0.6s;
   transition: background-color 0.6s;
+  z-index: 5;
 }
 
 nav .collapse {
@@ -65,5 +66,60 @@ nav .navbar-brand {
 nav .logo-color {
   color: #e76c25;
   text-transform: uppercase;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header p {
+  font-weight: bold;
+}
+
+header .hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/mind-riding-md.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+header .hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: -10;
+}
+
+header .hero-text {
+  height: 100%;
+  color: #305be9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 4;
+}
+
+header .hero-text .hero-btn {
+  color: #305be9;
+  background-color: #d7f5ec;
+}
+
+header .hero-text .hero-btn:hover {
+  background-color: #e76c25;
 }
 /*# sourceMappingURL=main.css.map */
