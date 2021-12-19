@@ -13,6 +13,7 @@ html {
 
 body {
   position: relative;
+  font-family: 'Roboto', sans-serif;
 }
 
 .shadow-bg {
@@ -20,7 +21,7 @@ body {
 }
 
 .navbar {
-  background-color: #a3e7d3;
+  background-color: #d7f5ec;
 }
 
 nav {
@@ -29,9 +30,18 @@ nav {
   transition: background-color 0.6s;
 }
 
+nav .collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
 nav a,
 nav .nav-link {
-  color: #0e46ff;
+  color: #305be9;
 }
 
 nav a:hover,
@@ -40,12 +50,12 @@ nav .nav-link:hover {
 }
 
 nav .active {
-  color: #97f5d9;
+  color: #e76c25;
 }
 
 nav .fa-bars {
   padding: 10px;
-  color: #0e46ff;
+  color: #305be9;
 }
 
 nav .navbar-brand {

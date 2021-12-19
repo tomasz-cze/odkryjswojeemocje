@@ -13,6 +13,7 @@ html {
 
 body {
 	position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 .shadow-bg {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -24,7 +25,10 @@ body {
 nav {
 	width: 100%;
 	transition: background-color 0.6s;
-
+.collapse {
+    display: flex;
+    justify-content:end;
+}
 	a,
 	.nav-link {
 		color: $main-color;
@@ -34,7 +38,7 @@ nav {
 		color: $special-color;
 	}
 	.active {
-		color: $second-color;
+		color: $special-color;
 	}
 	.fa-bars {
 		padding: 10px;
