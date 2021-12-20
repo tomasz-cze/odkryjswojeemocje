@@ -8,12 +8,18 @@
 }
 
 html {
-  scroll-padding-top: 66px;
+  scroll-padding-top: 72px;
 }
 
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #305be9;
 }
 
 .shadow-bg {
@@ -115,7 +121,7 @@ header .hero-text {
 }
 
 header .hero-text .hero-btn {
-  margin-top: 10%;
+  margin-top: 15%;
   color: #305be9;
   background-color: #d7f5ec;
 }
@@ -125,7 +131,7 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs {
-  height: 90vh;
+  height: 100vh;
   text-align: center;
 }
 
@@ -146,5 +152,35 @@ header .hero-text .hero-btn:hover {
 
 .aboutUs p {
   display: block;
+}
+
+.blog {
+  height: 100vh;
+  width: 100%;
+}
+
+.team {
+  height: 100vh;
+  width: 100%;
+}
+
+.quiz {
+  height: 100vh;
+  width: 100%;
+}
+
+.newsletter {
+  height: 100vh;
+  width: 100%;
+}
+
+.opinion {
+  height: 100vh;
+  width: 100%;
+}
+
+.contact {
+  height: 100vh;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
