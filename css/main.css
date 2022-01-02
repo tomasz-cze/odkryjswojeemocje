@@ -35,6 +35,7 @@ nav {
   width: 100%;
   -webkit-transition: background-color 0.6s;
   transition: background-color 0.6s;
+  font-weight: bold;
   z-index: 5;
 }
 
@@ -88,9 +89,12 @@ nav .logo-color {
 
 header h1 {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 header p {
+  padding-top: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   width: 50%;
 }
@@ -98,8 +102,8 @@ header p {
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url(../img/man-color-head-md.jpg);
-  background-position: center;
+  background-image: url(../img/niebo.jpg);
+  background-position-y: -700px;
   background-size: cover;
   background-attachment: fixed;
   background-color: #E6EDCB;
@@ -117,6 +121,7 @@ header .hero-bg {
 header .hero-text {
   position: absolute;
   height: 100%;
+  width: 100%;
   color: #466df0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,6 +142,7 @@ header .hero-text {
 
 header .hero-text .hero-btn {
   margin-top: 15%;
+  font-weight: bold;
   color: #466df0;
   background-color: #E6EDCB;
 }
@@ -146,13 +152,13 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs {
-  background-color: #d1e8f0;
+  background-color: #f5fcff;
   height: 100vh;
   text-align: center;
 }
 
 .aboutUs .aboutUs-text {
-  width: 100%;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,6 +178,33 @@ header .hero-text .hero-btn:hover {
 
 .aboutUs .aboutUs-text h3 {
   margin-top: 50px;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-1 {
+  width: 70%;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-2 {
+  padding-top: 5%;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services {
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services .aboutUs-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #E6EDCB;
+  font-weight: bold;
 }
 
 .blog {
