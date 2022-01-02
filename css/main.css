@@ -98,6 +98,10 @@ header p {
 header .hero-img {
   position: relative;
   height: 100vh;
+  background-image: url(../img/man-color-head-md.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   background-color: #E6EDCB;
   z-index: 1;
 }
@@ -106,11 +110,12 @@ header .hero-bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
   z-index: -10;
 }
 
 header .hero-text {
+  position: absolute;
   height: 100%;
   color: #466df0;
   display: -webkit-box;
@@ -141,6 +146,7 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs {
+  background-color: #d1e8f0;
   height: 100vh;
   text-align: center;
 }
@@ -150,6 +156,10 @@ header .hero-text .hero-btn:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -160,8 +170,8 @@ header .hero-text .hero-btn:hover {
   padding: 0 50px;
 }
 
-.aboutUs p {
-  display: block;
+.aboutUs .aboutUs-text h3 {
+  margin-top: 50px;
 }
 
 .blog {
