@@ -13,13 +13,14 @@ html {
 
 body {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #E6EDCB;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2 {
   text-align: center;
   text-transform: uppercase;
-  color: #305be9;
+  color: #466df0;
 }
 
 .shadow-bg {
@@ -27,7 +28,7 @@ h2 {
 }
 
 .navbar {
-  background-color: #d7f5ec;
+  background-color: #E6EDCB;
 }
 
 nav {
@@ -35,6 +36,16 @@ nav {
   -webkit-transition: background-color 0.6s;
   transition: background-color 0.6s;
   z-index: 5;
+}
+
+nav .logo {
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  background-image: url(../img/logo.jpeg);
+  background-size: 140px 140px;
+  background-position: center;
+  z-index: 15;
 }
 
 nav .collapse {
@@ -48,7 +59,8 @@ nav .collapse {
 
 nav a,
 nav .nav-link {
-  color: #305be9;
+  color: #466df0;
+  text-transform: uppercase;
 }
 
 nav a:hover,
@@ -62,7 +74,7 @@ nav .active {
 
 nav .fa-bars {
   padding: 10px;
-  color: #305be9;
+  color: #466df0;
 }
 
 nav .navbar-brand {
@@ -80,15 +92,13 @@ header h1 {
 
 header p {
   font-weight: bold;
+  width: 50%;
 }
 
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url(../img/smiley-1920.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #E6EDCB;
   z-index: 1;
 }
 
@@ -96,13 +106,13 @@ header .hero-bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
   z-index: -10;
 }
 
 header .hero-text {
   height: 100%;
-  color: #305be9;
+  color: #466df0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,8 +132,8 @@ header .hero-text {
 
 header .hero-text .hero-btn {
   margin-top: 15%;
-  color: #305be9;
-  background-color: #d7f5ec;
+  color: #466df0;
+  background-color: #E6EDCB;
 }
 
 header .hero-text .hero-btn:hover {
@@ -160,9 +170,7 @@ header .hero-text .hero-btn:hover {
 }
 
 .team {
-  height: 100vh;
   width: 100%;
-  overflow: hidden;
 }
 
 .quiz {

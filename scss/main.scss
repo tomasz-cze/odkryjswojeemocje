@@ -13,16 +13,15 @@ html {
 
 body {
 	position: relative;
-    background-color: $bg-color;
-    font-family: 'Raleway', sans-serif;
+	background-color: $bg-color;
+	font-family: 'Raleway', sans-serif;
 }
-h2{
-    text-align: center;
-    text-transform: uppercase;
-    color: $main-color;
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: $main-color;
 }
-.btn-c2a{
-
+.btn-c2a {
 }
 .shadow-bg {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -35,6 +34,15 @@ nav {
 	width: 100%;
 	transition: background-color 0.6s;
 	z-index: 5;
+	.logo {
+		width: 80px;
+		height: 80px;
+        padding: 0;
+		background-image: url(../img/logo.jpeg);
+        background-size: 140px 140px;
+        background-position: center;
+        z-index: 15;
+	}
 	.collapse {
 		display: flex;
 		justify-content: end;
@@ -42,6 +50,7 @@ nav {
 	a,
 	.nav-link {
 		color: $main-color;
+		text-transform: uppercase;
 	}
 	a:hover,
 	.nav-link:hover {
@@ -64,102 +73,98 @@ nav {
 }
 // hero image
 header {
-    h1 {
-        text-transform: uppercase;
-    }
-    p {
-        font-weight: bold;
-    }
-    .hero-img {
-        position: relative;
-        height: 100vh;
-        background-image: url(../img/smiley-1920.jpg);
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        z-index: 1;
-    }
-    .hero-bg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(270, 270, 270, 0.6);
-        z-index: -10;
-    }
-    .hero-text {
-        // position: absolute;
-        height: 100%;
-        color: $main-color;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        z-index: 4;
-    
-        .hero-btn {
-            margin-top: 15%;
-            color: $main-color;
-            background-color: $bg-color;
-        }
-        .hero-btn:hover {
-            background-color: $special-color;
-        }
-    }
+	h1 {
+		text-transform: uppercase;
+	}
+	p {
+		font-weight: bold;
+		width: 50%;
+	}
+	.hero-img {
+		position: relative;
+		height: 100vh;
+		// // background-image: url(../img/smiley-1920.jpg);
+		// background-position: center;
+		// background-size: cover;
+		// background-attachment: fixed;
+        background-color:$bg-color ;
+		z-index: 1;
+	}
+	.hero-bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(270, 270, 270, 0.2);
+		z-index: -10;
+	}
+	.hero-text {
+		// position: absolute;
+		height: 100%;
+		color: $main-color;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		z-index: 4;
+
+		.hero-btn {
+			margin-top: 15%;
+			color: $main-color;
+			background-color: $bg-color;
+		}
+		.hero-btn:hover {
+			background-color: $special-color;
+		}
+	}
 }
-// o nas 
+// o nas
 
 .aboutUs {
-  
-    height: 100vh;
-    text-align: center;
-    .aboutUs-text {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        padding: 0 50px;
-    }
-    p {
-        display: block;
-    }
+	height: 100vh;
+	text-align: center;
+	.aboutUs-text {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding: 0 50px;
+	}
+	p {
+		display: block;
+	}
 }
 
-// blog 
+// blog
 
-.blog {    
-    height: 100vh;
-    width: 100%;
+.blog {
+	height: 100vh;
+	width: 100%;
 }
 
-
-.team {    
-    // height: 100vh;
-    width: 100%;
-    // overflow: hidden;
+.team {
+	// height: 100vh;
+	width: 100%;
+	// overflow: hidden;
 }
 
-
-.quiz {    
-    height: 100vh;
-    width: 100%;
+.quiz {
+	height: 100vh;
+	width: 100%;
 }
 
-
-.newsletter {    
-    height: 100vh;
-    width: 100%;
+.newsletter {
+	height: 100vh;
+	width: 100%;
 }
 
-
-.opinion {    
-    height: 100vh;
-    width: 100%;
+.opinion {
+	height: 100vh;
+	width: 100%;
 }
 
-
-.contact {    
-    height: 100vh;
-    width: 100%;
+.contact {
+	height: 100vh;
+	width: 100%;
 }
