@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  width: 100%;
   position: relative;
   background-color: #E6EDCB;
   font-family: 'Raleway', sans-serif;
@@ -103,10 +104,11 @@ header .hero-img {
   position: relative;
   height: 100vh;
   background-image: url(../img/niebo.jpg);
-  background-position-y: -700px;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #E6EDCB;
+  background-repeat: no-repeat;
   z-index: 1;
 }
 
@@ -188,6 +190,10 @@ header .hero-text .hero-btn:hover {
   padding-top: 5%;
 }
 
+.aboutUs .aboutUs-text .aboutUs-text-part-2 p {
+  font-weight: bold;
+}
+
 .aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services {
   padding-top: 5%;
   display: -webkit-box;
@@ -199,12 +205,33 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services .aboutUs-card {
-  border: 1px solid black;
-  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
   margin: 10px;
   padding: 20px;
   background-color: #E6EDCB;
   font-weight: bold;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services .aboutUs-card:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .blog {
