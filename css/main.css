@@ -90,12 +90,11 @@ nav .logo-color {
 
 header h1 {
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 header p {
   padding-top: 20px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
   width: 50%;
 }
@@ -103,7 +102,7 @@ header p {
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url(../img/niebo.jpg);
+  background-image: url(../img/man-color-head-md.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -116,7 +115,7 @@ header .hero-bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   z-index: -10;
 }
 
@@ -155,12 +154,10 @@ header .hero-text .hero-btn:hover {
 
 .aboutUs {
   background-color: #f5fcff;
-  height: 100vh;
   text-align: center;
 }
 
 .aboutUs .aboutUs-text {
-  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,10 +177,6 @@ header .hero-text .hero-btn:hover {
 
 .aboutUs .aboutUs-text h3 {
   margin-top: 50px;
-}
-
-.aboutUs .aboutUs-text .aboutUs-text-part-1 {
-  width: 70%;
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-2 {
@@ -232,6 +225,23 @@ header .hero-text .hero-btn:hover {
 .aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services .aboutUs-card:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-3 h2 {
+  padding-top: 10%;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-3 p {
+  padding-top: 5%;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-4 h2 {
+  padding: 5% 0;
+}
+
+.aboutUs .aboutUs-text .aboutUs-text-part-4 ul {
+  padding-top: 2%;
+  list-style-position: inside;
 }
 
 .blog {
