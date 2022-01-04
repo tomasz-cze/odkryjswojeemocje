@@ -230,8 +230,8 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services .aboutUs-card:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-3 h2 {
@@ -282,7 +282,20 @@ header .hero-text .hero-btn:hover {
 }
 
 .blog .blog-articules .blog-card {
-  border: 1px solid black;
+  margin-bottom: 30px;
+  width: 40%;
+  height: 600px;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 1px 2px 2px black;
+          box-shadow: 1px 1px 2px 2px black;
+}
+
+.blog .blog-articules .blog-card .blog-img {
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/mind-mapping-md.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .blog h2 {
