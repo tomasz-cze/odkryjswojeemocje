@@ -28,6 +28,13 @@ h2 {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.underline {
+  width: 30%;
+  height: 2px;
+  background-color: #466df0;
+  margin: 0 auto;
+}
+
 .navbar {
   background-color: #E6EDCB;
 }
@@ -245,8 +252,41 @@ header .hero-text .hero-btn:hover {
 }
 
 .blog {
-  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
+}
+
+.blog .blog-articules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.blog .blog-articules .blog-card {
+  border: 1px solid black;
+}
+
+.blog h2 {
+  padding-top: 5%;
 }
 
 .team {

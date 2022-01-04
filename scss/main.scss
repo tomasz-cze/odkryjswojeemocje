@@ -26,6 +26,12 @@ h2 {
 .shadow-bg {
 	background-color: rgba(0, 0, 0, 0.7);
 }
+.underline {
+	width: 30%;
+	height: 2px;
+	background-color: $main-color;
+	margin: 0 auto;
+}
 // nawigacja
 .navbar {
 	background-color: $bg-color;
@@ -197,8 +203,24 @@ header {
 // blog
 
 .blog {
-	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	.blog-articules {
+		display: flex;
+		flex-direction: row;
+justify-content: space-evenly;
+		.blog-card {
+			border: 1px solid black;	
+		}
+	}
+
+	h2 {
+		padding-top: 5%;
+	}
 	width: 100%;
+
 }
 
 .team {
