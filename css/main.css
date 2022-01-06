@@ -205,7 +205,7 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services .aboutUs-card {
-  height: 200px;
+  height: 150px;
   width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,12 +288,25 @@ header .hero-text .hero-btn:hover {
   overflow: hidden;
   -webkit-box-shadow: 1px 1px 2px 2px #8f9092;
           box-shadow: 1px 1px 2px 2px #8f9092;
+  font-size: 16px;
 }
 
-.blog .blog-articules .blog-card .blog-img {
+.blog .blog-articules .blog-card h3 {
+  font-size: 20px;
+}
+
+.blog .blog-articules .blog-card .blog-img-articule-1 {
   width: 100%;
   height: 200px;
   background-image: url(../img/mind-mapping-md.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .blog-articules .blog-card .blog-img-articule-2 {
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/mental-health-md.jpg);
   background-size: cover;
   background-position: center;
 }

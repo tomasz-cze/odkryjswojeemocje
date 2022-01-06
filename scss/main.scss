@@ -162,7 +162,7 @@ header {
 				display: flex;
 				justify-content: space-evenly;
 				.aboutUs-card {
-					height: 200px;
+					height: 150px;
 					width: 200px;
 					display: flex;
 					justify-content: center;
@@ -218,14 +218,26 @@ header {
 			overflow: hidden;
 			box-shadow: 1px 1px 2px 2px rgb(143, 144, 146);
 			// border: 1px solid black;
-			.blog-img {
+			h3 {
+				font-size: 20px;
+			}
+			font-size: 16px;
+			.blog-img-articule-1 {
 				width: 100%;
 				height: 200px;
 				background-image: url(../img/mind-mapping-md.jpg);
 				background-size: cover;
 				background-position: center;
 			}
+			.blog-img-articule-2 {
+				width: 100%;
+				height: 200px;
+				background-image: url(../img/mental-health-md.jpg);
+				background-size: cover;
+				background-position: center;
+			}
 		}
+	
 	}
 
 	h2 {
