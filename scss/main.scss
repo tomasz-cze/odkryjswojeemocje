@@ -27,7 +27,7 @@ h2 {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .underline {
-	width: 30%;
+	width: 10%;
 	height: 2px;
 	background-color: $main-color;
 	margin: 0 auto;
@@ -212,8 +212,8 @@ header {
 		flex-direction: row;
 		justify-content: space-evenly;
 		.blog-card {
-			margin-bottom: 30px;
-			width: 40%;
+			margin: 30px;
+			padding: 30px;
 			height: 600px;
 			overflow: hidden;
 			background-color: $bg-color-2;
@@ -239,7 +239,6 @@ header {
 				background-position: center;
 			}
 		}
-	
 	}
 
 	h2 {
@@ -270,17 +269,34 @@ header {
 }
 
 .contact {
+	padding-top: 50px;
 	background-color: $bg-color-2;
 	height: 600px;
 	width: 100%;
-	.contact-img {
-		width: 100%;
+	.contact-card {
+		text-align: center;
+		margin: 20px;
+		background-color: $bg-color;
+		border-radius: 15%;
 		height: 300px;
-		background-image: url(../img/smiley-1920.jpg);
-		background-size: cover;
-		background-position: center;
+		width: 25%;
+		font-size: 20px;
+
+		.contact-card-social {
+			width: 100%;
+			height: 100%;
+		}
+		a {
+			display: block;
+		}
+		i {
+			font-size: 50px;
+		}
 	}
 }
+
+// FOOTER
+
 footer {
 	text-align: center;
 }

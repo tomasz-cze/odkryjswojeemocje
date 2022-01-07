@@ -29,7 +29,7 @@ h2 {
 }
 
 .underline {
-  width: 30%;
+  width: 10%;
   height: 2px;
   background-color: #466df0;
   margin: 0 auto;
@@ -282,8 +282,8 @@ header .hero-text .hero-btn:hover {
 }
 
 .blog .blog-articules .blog-card {
-  margin-bottom: 30px;
-  width: 40%;
+  margin: 30px;
+  padding: 30px;
   height: 600px;
   overflow: hidden;
   background-color: #f5fcff;
@@ -337,17 +337,33 @@ header .hero-text .hero-btn:hover {
 }
 
 .contact {
+  padding-top: 50px;
   background-color: #f5fcff;
   height: 600px;
   width: 100%;
 }
 
-.contact .contact-img {
-  width: 100%;
+.contact .contact-card {
+  text-align: center;
+  margin: 20px;
+  background-color: #E6EDCB;
+  border-radius: 15%;
   height: 300px;
-  background-image: url(../img/smiley-1920.jpg);
-  background-size: cover;
-  background-position: center;
+  width: 25%;
+  font-size: 20px;
+}
+
+.contact .contact-card .contact-card-social {
+  width: 100%;
+  height: 100%;
+}
+
+.contact .contact-card a {
+  display: block;
+}
+
+.contact .contact-card i {
+  font-size: 50px;
 }
 
 footer {
