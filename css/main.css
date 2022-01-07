@@ -286,6 +286,7 @@ header .hero-text .hero-btn:hover {
   width: 40%;
   height: 600px;
   overflow: hidden;
+  background-color: #f5fcff;
   -webkit-box-shadow: 1px 1px 2px 2px #8f9092;
           box-shadow: 1px 1px 2px 2px #8f9092;
   font-size: 16px;
@@ -293,6 +294,7 @@ header .hero-text .hero-btn:hover {
 
 .blog .blog-articules .blog-card h3 {
   font-size: 20px;
+  color: #466df0;
 }
 
 .blog .blog-articules .blog-card .blog-img-articule-1 {
