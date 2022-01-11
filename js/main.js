@@ -13,5 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	allNavItems.forEach(item => item.addEventListener('click', () => navList.classList.remove('show')))
 
+	const articules = document.querySelectorAll('.blog-card')
+
+
+
+	articules.forEach(articul => articul.addEventListener('click', () => articul.classList.contains('bigArticul') ? articul.classList.remove('bigArticul'): articul.classList.add('bigArticul')))
+
 	window.addEventListener('scroll', addShadow)
 })

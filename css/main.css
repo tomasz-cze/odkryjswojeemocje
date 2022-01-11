@@ -35,6 +35,10 @@ h2 {
   margin: 0 auto;
 }
 
+.bigArticul {
+  position: absolute;
+}
+
 .navbar {
   background-color: #E6EDCB;
 }
@@ -269,6 +273,7 @@ header .hero-text .hero-btn:hover {
 }
 
 .blog .blog-articules {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,7 +361,7 @@ header .hero-text .hero-btn:hover {
   border-radius: 10px;
   height: 200px;
   width: 50%;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .contact .contact-card .contact-card-social {
