@@ -14,24 +14,24 @@ html {
 body {
   width: 100%;
   position: relative;
-  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-color: #fafafa;
   font-family: 'Raleway', sans-serif;
 }
 
 h2 {
   text-align: center;
   text-transform: uppercase;
-  color: #01228f;
+  color: #021858;
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #fafafa;
 }
 
 .underline {
   width: 10%;
   height: 2px;
-  background-color: #01228f;
+  background-color: #021858;
   margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ h2 {
 }
 
 .navbar {
-  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-color: #fafafa;
 }
 
 nav {
@@ -75,7 +75,7 @@ nav .collapse {
 
 nav a,
 nav .nav-link {
-  color: #01228f;
+  color: #021858;
   margin: 0 20px;
   text-transform: uppercase;
 }
@@ -91,7 +91,7 @@ nav .active {
 
 nav .fa-bars {
   padding: 10px;
-  color: #01228f;
+  color: #021858;
 }
 
 nav .navbar-brand {
@@ -101,6 +101,15 @@ nav .navbar-brand {
 nav .logo-color {
   color: #e76c25;
   text-transform: uppercase;
+}
+
+header .header-arrow {
+  color: #021858;
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 header h1 {
@@ -121,7 +130,7 @@ header .hero-img {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-color: #fafafa;
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -138,7 +147,7 @@ header .hero-text {
   position: absolute;
   height: 100%;
   width: 100%;
-  color: #01228f;
+  color: #021858;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,8 +168,8 @@ header .hero-text {
 header .hero-text .hero-btn {
   margin-top: 15%;
   font-weight: bold;
-  color: #01228f;
-  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: #021858;
+  background-color: #fafafa;
 }
 
 header .hero-text .hero-btn:hover {
@@ -168,7 +177,6 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs {
-  background-color: #f5fcff;
   text-align: center;
 }
 
@@ -213,7 +221,7 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-2 .aboutUs-services .aboutUs-card {
-  height: 150px;
+  height: 100px;
   width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,7 +237,7 @@ header .hero-text .hero-btn:hover {
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
-  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-color: #fafafa;
   font-weight: bold;
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
@@ -309,7 +317,7 @@ header .hero-text .hero-btn:hover {
   top: 0;
   position: relative;
   font-size: 20px;
-  color: #01228f;
+  color: #021858;
 }
 
 .blog .blog-articules .blog-card .blog-img-articule-1 {
@@ -358,7 +366,6 @@ header .hero-text .hero-btn:hover {
 .contact {
   padding-top: 50px;
   padding-bottom: 100px;
-  background-color: #f5fcff;
   height: 100vh;
   width: 100%;
 }
@@ -367,7 +374,7 @@ header .hero-text .hero-btn:hover {
   margin-top: 50px;
   text-align: center;
   margin: 20px;
-  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-color: #fafafa;
   border-radius: 10px;
   height: 200px;
   width: 50%;
