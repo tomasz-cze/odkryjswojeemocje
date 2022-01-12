@@ -44,6 +44,7 @@ h2 {
 
 .navbar {
   background-color: #fafafa;
+  height: 80px;
 }
 
 nav {
@@ -145,8 +146,12 @@ header .hero-bg {
 
 header .hero-text {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 50%;
+  width: 50%;
   color: #021858;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,8 +268,11 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-4 ul {
+  width: 30%;
   padding-top: 2%;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog {
@@ -306,7 +314,7 @@ header .hero-text .hero-btn:hover {
   padding: 30px;
   height: 600px;
   overflow: hidden;
-  background-color: #f5fcff;
+  background-color: #fff;
   -webkit-box-shadow: 1px 1px 2px 2px #8f9092;
           box-shadow: 1px 1px 2px 2px #8f9092;
   border-radius: 5px;
@@ -386,12 +394,20 @@ header .hero-text .hero-btn:hover {
   height: 50%;
 }
 
+.contact .contact-card .contact-card-social :first-child {
+  margin-bottom: 30px;
+}
+
 .contact .contact-card a {
   display: block;
 }
 
+.contact .contact-card .contact-adress i {
+  font-size: 25px;
+}
+
 .contact .contact-card i {
-  font-size: 50px;
+  font-size: 80px;
 }
 
 footer {
