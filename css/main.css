@@ -14,14 +14,14 @@ html {
 body {
   width: 100%;
   position: relative;
-  background-color: #E6EDCB;
+  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   font-family: 'Raleway', sans-serif;
 }
 
 h2 {
   text-align: center;
   text-transform: uppercase;
-  color: #466df0;
+  color: #01228f;
 }
 
 .shadow-bg {
@@ -31,16 +31,19 @@ h2 {
 .underline {
   width: 10%;
   height: 2px;
-  background-color: #466df0;
+  background-color: #01228f;
   margin: 0 auto;
 }
 
 .bigArticul {
-  position: absolute;
+  position: relativ;
+  height: 700px;
+  width: 70vw;
+  z-index: 50;
 }
 
 .navbar {
-  background-color: #E6EDCB;
+  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 nav {
@@ -65,14 +68,15 @@ nav .collapse {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav a,
 nav .nav-link {
-  color: #466df0;
+  color: #01228f;
+  margin: 0 20px;
   text-transform: uppercase;
 }
 
@@ -87,7 +91,7 @@ nav .active {
 
 nav .fa-bars {
   padding: 10px;
-  color: #466df0;
+  color: #01228f;
 }
 
 nav .navbar-brand {
@@ -117,7 +121,7 @@ header .hero-img {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #E6EDCB;
+  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -134,7 +138,7 @@ header .hero-text {
   position: absolute;
   height: 100%;
   width: 100%;
-  color: #466df0;
+  color: #01228f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,8 +159,8 @@ header .hero-text {
 header .hero-text .hero-btn {
   margin-top: 15%;
   font-weight: bold;
-  color: #466df0;
-  background-color: #E6EDCB;
+  color: #01228f;
+  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 header .hero-text .hero-btn:hover {
@@ -225,7 +229,7 @@ header .hero-text .hero-btn:hover {
   border-radius: 20px;
   margin: 10px;
   padding: 20px;
-  background-color: #E6EDCB;
+  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   font-weight: bold;
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
@@ -256,6 +260,8 @@ header .hero-text .hero-btn:hover {
 }
 
 .blog {
+  position: relative;
+  height: 150vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,11 +275,12 @@ header .hero-text .hero-btn:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
   width: 100%;
 }
 
 .blog .blog-articules {
-  position: absolute;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,8 +306,10 @@ header .hero-text .hero-btn:hover {
 }
 
 .blog .blog-articules .blog-card h3 {
+  top: 0;
+  position: relative;
   font-size: 20px;
-  color: #466df0;
+  color: #01228f;
 }
 
 .blog .blog-articules .blog-card .blog-img-articule-1 {
@@ -348,8 +357,9 @@ header .hero-text .hero-btn:hover {
 
 .contact {
   padding-top: 50px;
+  padding-bottom: 100px;
   background-color: #f5fcff;
-  height: 600px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -357,7 +367,7 @@ header .hero-text .hero-btn:hover {
   margin-top: 50px;
   text-align: center;
   margin: 20px;
-  background-color: #E6EDCB;
+  background-color: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   border-radius: 10px;
   height: 200px;
   width: 50%;

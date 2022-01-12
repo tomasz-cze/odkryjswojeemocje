@@ -16,6 +16,25 @@ document.addEventListener('DOMContentLoaded', function () {
 	const articules = document.querySelectorAll('.blog-card')
 
 
+// function showHide () {
+// 	for (art of articules) {
+// 		if (art.classList.contains('bigArticul')) {
+// 			art.classList.remove('bigArticul') 
+			
+// 		} else {
+// 			art.classList.add('bigArticul') 
+// 			// for (art of articules) {
+// 			// 	if (art.classList.contains('hide')) {
+// 			// 		art.classList.remove('hide')
+// 			// 	} else {
+// 			// 		art.classList.add('hide')
+// 			// 	}
+// 			// }
+// 		}
+// 	}
+// }
+
+// articules.forEach(articul => articul.addEventListener('click', showHide())) 
 
 	articules.forEach(articul => articul.addEventListener('click', () => articul.classList.contains('bigArticul') ? articul.classList.remove('bigArticul'): articul.classList.add('bigArticul')))
 

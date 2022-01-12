@@ -25,6 +25,7 @@ h2 {
 
 .shadow-bg {
 	background-color: rgba(0, 0, 0, 0.7);
+	// background-color: $bg-color;
 }
 .underline {
 	width: 10%;
@@ -34,7 +35,10 @@ h2 {
 }
 
 .bigArticul {
-	position: absolute;
+	position: relativ;
+	height: 700px;
+	width: 70vw;
+	z-index: 50;
 }
 
 // nawigacja
@@ -57,11 +61,12 @@ nav {
 	}
 	.collapse {
 		display: flex;
-		justify-content: end;
+		justify-content: center;
 	}
 	a,
 	.nav-link {
 		color: $main-color;
+		margin: 0 20px;
 		text-transform: uppercase;
 	}
 	a:hover,
@@ -208,12 +213,15 @@ header {
 // blog
 
 .blog {
+	position: relative;
+	height: 150vh;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	overflow: hidden;
 	.blog-articules {
-		position: absolute;
+		position: relative;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
@@ -226,8 +234,10 @@ header {
 			box-shadow: 1px 1px 2px 2px rgb(143, 144, 146);
 			border-radius: 5px;
 			font-size: 16px;
-			
+
 			h3 {
+				top: 0;
+				position: relative;
 				font-size: 20px;
 				color: $main-color;
 			}
@@ -254,7 +264,6 @@ header {
 	width: 100%;
 	a {
 		text-decoration: none;
-	
 	}
 }
 
@@ -281,8 +290,9 @@ header {
 
 .contact {
 	padding-top: 50px;
+	padding-bottom: 100px;
 	background-color: $bg-color-2;
-	height: 600px;
+	height: 100vh;
 	width: 100%;
 	.contact-card {
 		margin-top: 50px;
@@ -312,4 +322,3 @@ header {
 footer {
 	text-align: center;
 }
-
