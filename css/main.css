@@ -151,7 +151,7 @@ header .hero-text {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   height: 50%;
-  width: 50%;
+  width: 100%;
   color: #021858;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,7 +268,7 @@ header .hero-text .hero-btn:hover {
 }
 
 .aboutUs .aboutUs-text .aboutUs-text-part-4 ul {
-  width: 30%;
+  width: 80%;
   padding-top: 2%;
   list-style-position: outside;
   margin-left: auto;
@@ -391,7 +391,7 @@ header .hero-text .hero-btn:hover {
 
 .contact .contact-card .contact-card-social {
   width: 100%;
-  height: 50%;
+  height: 100%;
 }
 
 .contact .contact-card .contact-card-social :first-child {

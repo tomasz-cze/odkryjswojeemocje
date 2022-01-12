@@ -133,7 +133,7 @@ header {
 		top: 50%;
 		transform: translate(-50%, -50%);
 		height: 50%;
-		width: 50%;
+		width:100%;
 		color: $main-color;
 		display: flex;
 		flex-direction: column;
@@ -216,7 +216,7 @@ header {
 				padding: 5% 0;
 			}
 			ul {
-				width: 30%;
+				width: 80%;
 				
 
 		// transform: translate(-50%);
@@ -325,7 +325,7 @@ header {
 
 		.contact-card-social {
 			width: 100%;
-			height: 50%;
+			height: 100%;
 			:first-child {
 				margin-bottom: 30px;
 			}
