@@ -308,7 +308,7 @@ header {
 	padding-top: 50px;
 	padding-bottom: 100px;
 	// background-color: $bg-color-2;
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
 	.contact-card {
 		margin-top: 50px;
@@ -333,6 +333,7 @@ header {
 		.contact-adress {
 			i {
 				font-size: 25px;
+				padding-right: 20px;
 			}
 		}
 		i {
