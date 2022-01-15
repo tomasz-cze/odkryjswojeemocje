@@ -24,8 +24,8 @@ h2 {
 }
 
 .shadow-bg {
-	// background-color: rgba(0, 0, 0, 0.7);
-	background-color: $bg-color;
+	background-color: rgba(270, 270, 270, 0.8);
+	// background-color: $bg-color;
 }
 .underline {
 	width: 10%;
@@ -133,7 +133,7 @@ header {
 		top: 50%;
 		transform: translate(-50%, -50%);
 		height: 50%;
-		width:100%;
+		width: 100%;
 		color: $main-color;
 		display: flex;
 		flex-direction: column;
@@ -217,13 +217,10 @@ header {
 			}
 			ul {
 				width: 80%;
-				
-
-		// transform: translate(-50%);
+				// padding-left: 0;
 				padding-top: 2%;
-				list-style-position: outside;
-	margin-left: auto;
-	margin-right: auto;
+				text-align: left;
+				// list-style-position: inside;
 			}
 		}
 	}
@@ -319,7 +316,7 @@ header {
 		margin: 20px;
 		background-color: $bg-color;
 		border-radius: 10px;
-		height: 200px;
+		// height: 200px;
 		width: 50%;
 		font-size: 15px;
 

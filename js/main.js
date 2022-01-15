@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-	const nav = document.querySelector('.navbar')
+	const nav = document.querySelector('.navbar-collapse')
 	const allNavItems = document.querySelectorAll('.nav-link')
 	const navList = document.querySelector('.collapse')
 

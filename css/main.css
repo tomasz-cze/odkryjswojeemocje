@@ -25,7 +25,7 @@ h2 {
 }
 
 .shadow-bg {
-  background-color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .underline {
@@ -270,9 +270,7 @@ header .hero-text .hero-btn:hover {
 .aboutUs .aboutUs-text .aboutUs-text-part-4 ul {
   width: 80%;
   padding-top: 2%;
-  list-style-position: outside;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left;
 }
 
 .blog {
@@ -384,7 +382,6 @@ header .hero-text .hero-btn:hover {
   margin: 20px;
   background-color: #fafafa;
   border-radius: 10px;
-  height: 200px;
   width: 50%;
   font-size: 15px;
 }
